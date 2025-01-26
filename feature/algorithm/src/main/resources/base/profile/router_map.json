@@ -1,0 +1,12 @@
+{
+  "routerMap": [
+    {
+      "name": "AlgorithmTestPage",
+      "pageSourceFile": "src/main/ets/pages/AlgorithmTestPage.ets",
+      "buildFunction": "AlgorithmTestPageBuilder",
+      "data": {
+        "description": "this is AlgorithmTestPage"
+      }
+    }
+  ]
+}

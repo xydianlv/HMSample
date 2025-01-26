@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "system_extra",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}

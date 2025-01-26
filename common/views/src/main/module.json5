@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "views",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}

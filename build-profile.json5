@@ -1,0 +1,85 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./main/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "resource",
+      "srcPath": "./common/resource",
+    },
+    {
+      "name": "utils",
+      "srcPath": "./common/utils",
+    },
+    {
+      "name": "views",
+      "srcPath": "./common/views",
+    },
+    {
+      "name": "base",
+      "srcPath": "./common/base",
+    },
+    {
+      "name": "algorithm",
+      "srcPath": "./feature/algorithm",
+    },
+    {
+      "name": "system",
+      "srcPath": "./feature/system",
+    },
+    {
+      "name": "entry_extra",
+      "srcPath": "./main/entry_extra",
+    },
+    {
+      "name": "system_extra",
+      "srcPath": "./feature/system_extra",
+    },
+    {
+      "name": "algorithm_extra",
+      "srcPath": "./feature/algorithm_extra",
+    },
+    {
+      "name": "router",
+      "srcPath": "./common/router",
+    },
+    {
+      "name": "data",
+      "srcPath": "./common/data",
+    }
+  ]
+}

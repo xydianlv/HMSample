@@ -1,0 +1,20 @@
+{
+  "routerMap": [
+    {
+      "name": "SplashPage",
+      "pageSourceFile": "src/main/ets/pages/splash/SplashPage.ets",
+      "buildFunction": "SplashPageBuilder",
+      "data": {
+        "description": "this is SplashPage"
+      }
+    },
+    {
+      "name": "MainPage",
+      "pageSourceFile": "src/main/ets/pages/main/MainPage.ets",
+      "buildFunction": "MainPageBuilder",
+      "data": {
+        "description": "this is MainPage"
+      }
+    }
+  ]
+}

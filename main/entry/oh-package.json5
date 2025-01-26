@@ -1,0 +1,25 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    /*----------------common------------------*/
+    "base": "file:../../common/base",
+    "utils": "file:../../common/utils",
+    "resource": "file:../../common/resource",
+    "views": "file:../../common/views",
+    "router": "file:../../common/router",
+    "data": "file:../../common/data",
+    /*----------------module------------------*/
+    "system": "file:../../feature/system",
+    "algorithm": "file:../../feature/algorithm",
+    /*-------------module_extra---------------*/
+    "entry_extra": "file:../entry_extra",
+    "system_extra": "file:../../feature/system_extra",
+    "algorithm_extra": "file:../../feature/algorithm_extra"
+  }
+}
+

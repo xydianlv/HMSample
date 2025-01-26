@@ -1,0 +1,17 @@
+{
+  "name": "system",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "base": "file:../../common/base",
+    "utils": "file:../../common/utils",
+    "resource": "file:../../common/resource",
+    "views": "file:../../common/views",
+    "data": "file:../../common/data",
+    "router": "file:../../common/router",
+    "system_extra": "file:../system_extra"
+  }
+}
